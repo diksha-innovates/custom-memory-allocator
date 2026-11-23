@@ -1,0 +1,20 @@
+build/
+build-asan/
+build-ubsan/
+build-tsan/
+build-release/
+.venv/
+results/
+__pycache__/
+*.dSYM
+.DS_Store
+*.o
+*.a
+compile_commands.json
+
+# Claude / AI tool files must never be committed
+CLAUDE.md
+**/CLAUDE.md
+CLAUDE.local.md
+.claude/
+.claude*
